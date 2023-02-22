@@ -23,3 +23,4 @@ if($nbInsertedRows === 1){
 } else {
     echo 'auteur non ajouté à la BDD';
 }
+echo ($nbInsertedRows === 1) ? "Auteur ajouté à la BDD" : "Auteur non ajouté à la BDD";
