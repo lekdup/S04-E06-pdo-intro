@@ -14,5 +14,5 @@ $pdoStatement = $pdoDBConnexion->query($requeteSql);
 $results = $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
 
 echo '<pre>';
-print_r($results);
+var_dump($results);
 echo '<pre>';
